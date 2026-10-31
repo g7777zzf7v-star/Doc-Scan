@@ -1,7 +1,7 @@
 /* ماسح المستمسكات — service worker (offline + self-update)
    VERSION is replaced at build time with a hash of index.html, so every new
    upload changes this file and browsers install the new version automatically. */
-var VERSION = '0d274e803b';
+var VERSION = 'e097c0d9a0';
 var CORE = 'docscan-core-' + VERSION;
 var RT = 'docscan-rt-v1';
 var CORE_FILES = ['./', './index.html', './apple-touch-icon.png', './icon-192.png', './icon-512.png', './manifest.webmanifest'];
